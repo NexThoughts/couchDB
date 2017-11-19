@@ -51,6 +51,12 @@ grails.project.dependency.resolution = {
         // runtime 'mysql:mysql-connector-java:5.1.27'
         // runtime 'org.postgresql:postgresql:9.3-1100-jdbc41'
         test "org.grails:grails-datastore-test-support:1.0-grails-2.3"
+        // https://mvnrepository.com/artifact/org.lightcouch/lightcouch
+        compile group: 'org.lightcouch', name: 'lightcouch', version: '0.2.0'
+        compile group: 'org.ektorp' , name: 'org.ektorp' , version: '1.3.0'
+
+
+
     }
 
     plugins {
