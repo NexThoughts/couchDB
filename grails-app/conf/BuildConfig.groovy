@@ -52,7 +52,7 @@ grails.project.dependency.resolution = {
         // runtime 'org.postgresql:postgresql:9.3-1100-jdbc41'
         test "org.grails:grails-datastore-test-support:1.0-grails-2.3"
         // https://mvnrepository.com/artifact/org.lightcouch/lightcouch
-        compile group: 'org.lightcouch', name: 'lightcouch', version: '0.2.0'
+        // compile group: 'org.lightcouch', name: 'lightcouch', version: '0.2.0'
         compile group: 'org.ektorp' , name: 'org.ektorp' , version: '1.3.0'
 
 
@@ -78,7 +78,7 @@ grails.project.dependency.resolution = {
         //runtime ":yui-minify-resources:0.1.5"
 
         // An alternative to the default resources plugin is the asset-pipeline plugin
-        //compile ":asset-pipeline:1.6.1"
+        compile ":asset-pipeline:1.6.1"
 
         // Uncomment these to enable additional asset-pipeline capabilities
         //compile ":sass-asset-pipeline:1.5.5"
